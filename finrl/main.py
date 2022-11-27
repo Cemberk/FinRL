@@ -24,7 +24,7 @@ from finrl.config import (
 )
 
 # construct environment
-from finrl.finrl_meta.env_stock_trading.env_stocktrading_np import StockTradingEnv
+from finrl.meta.env_stock_trading.env_stocktrading_np import StockTradingEnv
 
 
 def build_parser():

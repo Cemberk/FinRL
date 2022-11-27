@@ -19,7 +19,7 @@ FinRL's file architecture strictly follow the :ref:`three-layer architecture`.
     │   	├── elegantrl
     │   	├── rllib
     │   	└── stablebaseline3
-    │   ├── meta
+    │   ├── finrl_meta
     │   	├── data_processors
     │   	├── env_cryptocurrency_trading
     │   	├── env_portfolio_allocation

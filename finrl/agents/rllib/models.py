@@ -1,9 +1,9 @@
 # DRL models from RLlib
 import ray
-from ray.rllib.alorgithms.a2c import a2c
-from ray.rllib.alorgithms.ddpg import ddpg, td3
-from ray.rllib.alorgithms.ppo import ppo
-from ray.rllib.alorgithms.sac import sac
+from ray.rllib.algorithms.a2c import a2c
+from ray.rllib.algorithms.ddpg import ddpg, td3
+from ray.rllib.algorithms.ppo import ppo
+from ray.rllib.algorithms.sac import sac
 
 MODELS = {"a2c": a2c, "ddpg": ddpg, "td3": td3, "sac": sac, "ppo": ppo}
 

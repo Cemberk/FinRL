@@ -1,7 +1,8 @@
 # DRL models from RLlib
 import ray
 from ray.rllib.algorithms.a2c import a2c
-from ray.rllib.algorithms.ddpg import ddpg, td3
+from ray.rllib.algorithms.ddpg import ddpg
+from ray.rllib.algorithms.td3 import td3
 from ray.rllib.algorithms.ppo import ppo
 from ray.rllib.algorithms.sac import sac
 
